@@ -1,0 +1,53 @@
+html {
+    font-size: 10px;
+    background: url('./images/background-image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex: 1;
+}
+
+.key {
+    border: 0.4rem solid aliceblue;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    text-shadow: 0 0 0.5rem aliceblue;
+    transition: all 0.7s ease-in-out;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #4d0c4d;
+    box-shadow: 0 0 1rem #4d0c4d;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #eccaec;
+}
+
