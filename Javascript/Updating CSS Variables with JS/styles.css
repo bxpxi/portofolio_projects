@@ -1,0 +1,30 @@
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body {
+    background-color: rgb(61, 61, 198);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 2rem;
+}
+
+img {
+    width: 600px;
+    height: auto;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.highlight {
+    color: var(--base);
+}
